@@ -1,0 +1,2 @@
+# Easy smoothie recepie generator
+ 
