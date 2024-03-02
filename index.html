@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <link rel="stylesheet" href="src/style.css" />
     <title>AI smoothie generator</title>
   </head>
@@ -12,7 +13,7 @@
         <h1>AI Easy Smoothie Receipe Generator</h1>
       </header>
       <main>
-        <form>
+        <form id="smoothie-recepie-form">
           <input
             type="text"
             placeholder="enter which smoothie Receipe you want"
@@ -23,11 +24,7 @@
           />
           <input type="submit" class="submit-button" />
         </form>
-        <div class="smoothie">
-          recepie...
-          <br />This green smoothie is deliciously sweet, slightly tangy, and so
-          good for you
-        </div>
+        <div class="smoothie" id="smoothie"></div>
       </main>
       <script src="src/index.js"></script>
       <footer>
